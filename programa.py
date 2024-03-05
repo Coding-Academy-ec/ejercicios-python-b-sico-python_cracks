@@ -1,4 +1,4 @@
-# 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
+# 1 Escribe un programa chevere en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
     # Aquí se imprime el nombre en la pantalla
 
