@@ -25,7 +25,7 @@ if __name__ == "__main__":
     estatura = 1.75
     # Se llama a la función imprimir_datos_personales() para mostrar los datos
 
-# 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+# 4 Escribe un programaee que determine si un número ingresado por el usuario es par o impar.
 def par_o_impar(numero):
     # Se verifica si el número es divisible por 2
         # Si es divisible, se devuelve "par"
