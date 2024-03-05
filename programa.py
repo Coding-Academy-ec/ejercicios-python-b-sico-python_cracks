@@ -1,6 +1,6 @@
 # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
-    print( "Ignacio B Cedeño")
+    print("Vinicio Sarango")
 
 if __name__ == "__main__":
     imprimir_nombre()
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
 # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 def par_o_impar(numero):
-    if numero%2 == 0:
+    if numero % 2 == 0:
         return "par"
     else:
         return "impar" # Si no es divisible, se devuelve "impar"
