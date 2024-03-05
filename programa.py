@@ -1,6 +1,6 @@
 # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
-    print( "Ignacio B Cedeño")
+    print( "Ignacio Cedeño")
 
 if __name__ == "__main__":
     imprimir_nombre()
