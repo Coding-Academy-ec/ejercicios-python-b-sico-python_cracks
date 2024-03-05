@@ -61,6 +61,7 @@ import math
 
 def area_circulo(radio):
     area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
+    return area
     # Se devuelve el área calculada
 
 if __name__ == "__main__":
@@ -72,10 +73,12 @@ def celsius_a_fahrenheit(celsius):
     return (celsius * 9/5) + 32  # Se aplica la fórmula de conversión de Celsius a Fahrenheit
 
 def fahrenheit_a_celsius(fahrenheit):
+    return (fahrenheit - 32) / (9/5) 
     # Se aplica la fórmula de conversión de Fahrenheit a Celsius
 
 if __name__ == "__main__":
     celsius = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
     print("Temperatura en Fahrenheit:", celsius_a_fahrenheit(celsius))  # Se imprime la temperatura convertida a grados Fahrenheit
-    # Se solicita al usuario que ingrese la temperatura en grados Fahrenheit
+   
+    fahrenheit = float(input("Ingrese la temperatura en grados Fahrenheit: "))# Se solicita al usuario que ingrese la temperatura en grados Fahrenheit
     print("Temperatura en Celsius:", fahrenheit_a_celsius(fahrenheit))  # Se imprime la temperatura convertida a grados Celsius
