@@ -1,14 +1,18 @@
-# 1 Escribe un programa chevere en Python que imprima tu nombre en la pantalla.
+# 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
-    # Aquí se imprime el nombre en la pantalla
+    print( "Ignacio B Cedeño")
 
 if __name__ == "__main__":
-    # Se llama a la función imprimir_nombre() para ejecutarla
+    imprimir_nombre()
 
 # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
 def suma_1_al_10():
-    suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
-    # Se devuelve el resultado de la suma
+    suma = sum(range(1, 11))  
+    return suma
+
+if __name__ == "__main__":
+    resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
+    print("La suma de los números del 1 al 10 es:", resultado)
 
 if __name__ == "__main__":
     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
